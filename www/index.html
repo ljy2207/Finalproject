@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+        <script type="text/javascript" data-main="appscripts/main.js" src="jslibs/require.js">
+        </script>
+    </head>
+
+    <body>
+    <center>
+         <h3> Space Escape! </h3>
+
+         Escape from the Asteroids!<br>
+         Instructions: Drag the alien away from the asteroids to avoid getting hit (or else game is over).<br>
+         Click on as many asteroids as you can to destroy them before time runs out!!! <br> 
+         Choose your level of difficulty: <br><br>
+         
+        <input id="easy" type="radio" name="difficultyLevel" value="easy"> Easy
+        <input id="medium" type="radio" name="difficultyLevel" value="medium"> Medium
+        <input id="difficult" type="radio" name="difficultyLevel" value="difficult"> Difficult
+        <br>
+        <br>
+    </center>
+
+    <div id="mySVGCanvas" > </div>
+    
+        <audio controls>
+          <source src="resources/alienSpaceship.wav" type="audio/wav">
+        </audio>
+
+    </body>
+</html>
+
